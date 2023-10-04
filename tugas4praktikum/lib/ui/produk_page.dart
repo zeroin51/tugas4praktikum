@@ -5,10 +5,10 @@ import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tokokita/model/produk.dart';
-import 'package:tokokita/ui/login_page.dart';
-import 'package:tokokita/ui/produk_detail.dart';
-import 'package:tokokita/ui/produk_form.dart';
+import 'package:tugas4praktikum/model/produk.dart';
+import 'package:tugas4praktikum/ui/login_page.dart';
+import 'package:tugas4praktikum/ui/produk_detail.dart';
+import 'package:tugas4praktikum/ui/produk_form.dart';
 import 'dart:io' show Platform;
 
 class ProdukPage extends StatefulWidget {

@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tokokita/ui/produk_page.dart';
-import 'package:tokokita/ui/registrasi_page.dart';
+import 'package:tugas4praktikum/ui/produk_page.dart';
+import 'package:tugas4praktikum/ui/registrasi_page.dart';
 import 'dart:io' show Platform;
 import 'package:http/http.dart' as http;
 

@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:io' show Platform;
-import 'package:tokokita/model/registrasi.dart';
+import 'package:tugas4praktikum/model/registrasi.dart';
 
 class RegistrasiPage extends StatefulWidget {
   const RegistrasiPage({Key? key}) : super(key: key);
@@ -26,7 +26,7 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
         controller: _namaTextboxController,
         validator: (value) {
           if (value!.length < 3) {
-            return "Nama harus diisi minal 3 karakter";
+            return "Nama harus diisi minimal 3 karakter";
           } else {
             return null;
           }

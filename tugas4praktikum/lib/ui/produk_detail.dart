@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:io' show Platform;
 import 'dart:developer' as devLog;
 import 'package:flutter/material.dart';
-import 'package:tokokita/model/produk.dart';
-import 'package:tokokita/ui/produk_form.dart';
+import 'package:tugas4praktikum/model/produk.dart';
+import 'package:tugas4praktikum/ui/produk_form.dart';
 import 'package:http/http.dart' as http;
-import 'package:tokokita/ui/produk_page.dart';
+import 'package:tugas4praktikum/ui/produk_page.dart';
 
 class ProdukDetail extends StatefulWidget {
   Produk? produk;
